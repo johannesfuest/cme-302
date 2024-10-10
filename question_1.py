@@ -17,8 +17,8 @@ if __name__=="__main__":
     plt.plot(x, roundoff)
     plt.yscale('log')
     plt.xlabel('x')
-    plt.ylabel('Roundoff Error')
-    plt.title('Roundoff Error of Short and Long Polynomial')
+    plt.ylabel('Relative Error')
+    plt.title('Relative error of the short polynomial approximation')
     plt.show()
 
     
